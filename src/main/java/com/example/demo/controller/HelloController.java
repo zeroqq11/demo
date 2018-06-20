@@ -11,7 +11,7 @@ public class HelloController {
     public Greeting greeting() {
         Greeting g = new Greeting();
         g.setId(1);
-        g.setContent("hello world!");
+        g.setContent("hello github!");
         return g;
     }
 }
